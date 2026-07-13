@@ -19,7 +19,7 @@ This repository contains an end-to-end simulation framework that bridges time-se
 ### Group 3: Demand Profiling & Heatwave Simulations (Stress Test)
 *Left: Peak-Day Load Envelope Profiling | Right: Downsampled Year Grid Thresholds*
 ![Demand Profiling 24h](Screenshot_3.png)
-![Demand Profiling 1y](Screenshot_8.jpg)
+![Demand Profiling 1y](Screenshot_8.png)
 
 ### Group 4: Arbitrage Optimization Engine (Linear Programming)
 *Left: Maximum 24h Dispatch Decision Matrix | Right: Multi-Period Market Price Boundaries*

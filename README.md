@@ -1,6 +1,35 @@
 # Spain Smart Grid Analytics & Battery Arbitrage Engine
 
+[🌐 Launch Live Interactive Dashboard](https://PASTE_YOUR_STREAMLIT_LINK_HERE.streamlit.app/) | [📄 View Architecture Documentation](#-core-architecture)
+
 This repository contains an end-to-end simulation framework that bridges time-series machine learning forecasting with linear programming optimization. The application ingests public historical grid data from the Spanish market (REE), uses gradient boosting to predict market conditions, and routes those constraints to an operations research engine optimizing a virtual grid-scale energy storage asset.
+
+## 🖼️ Dashboard Preview & Feature Gallery
+
+### Group 1: Fleet Command Center (KPI Overview)
+*Left: Tactical 24-Hour Operations | Right: Macro 1-Year Financial/Power Trends*
+![Fleet Command 24h](Screenshot_1.png)
+![Fleet Command 1y](Screenshot_6.png)
+
+### Group 2: Supply Intelligence & Solar Forecasting (ML Metrics)
+*Left: Day-Ahead Generation Profile (AI Validation) | Right: Full-Year Solar Capacity Matrix*
+![Supply Intel 24h](Screenshot_2.png)
+![Supply Intel 1y](Screenshot_7.png)
+
+### Group 3: Demand Profiling & Heatwave Simulations (Stress Test)
+*Left: Peak-Day Load Envelope Profiling | Right: Downsampled Year Grid Thresholds*
+![Demand Profiling 24h](Screenshot_3.png)
+![Demand Profiling 1y](Screenshot_8.jpg)
+
+### Group 4: Arbitrage Optimization Engine (Linear Programming)
+*Left: Maximum 24h Dispatch Decision Matrix | Right: Multi-Period Market Price Boundaries*
+![Arbitrage 24h](Screenshot_4.png)
+![Arbitrage 1y](Screenshot_9.png)
+
+### Group 5: Asset Health & Anomaly Detection (Isolation Forest)
+*Left: Real-Time Transformer Voltage Spike Logs | Right: Structurally Downsampled Annual Asset Logs*
+![Asset Health 24h](Screenshot_5.png)
+![Asset Health 1y](Screenshot_10.png)
 
 ## 📊 Core Architecture
 The system is built in a modular Python framework divided into separate executable execution layers:

@@ -1,6 +1,6 @@
 # Spain Smart Grid Analytics & Battery Arbitrage Engine
 
-[🌐 Launch Live Interactive Dashboard](https://PASTE_YOUR_STREAMLIT_LINK_HERE.streamlit.app/) | [📄 View Architecture Documentation](#-core-architecture)
+[🌐 Launch Live Interactive Dashboard](https://spain-smart-grid-ai.streamlit.app/) | [📄 View Architecture Documentation](#-core-architecture)
 
 This repository contains an end-to-end simulation framework that bridges time-series machine learning forecasting with linear programming optimization. The application ingests public historical grid data from the Spanish market (REE), uses gradient boosting to predict market conditions, and routes those constraints to an operations research engine optimizing a virtual grid-scale energy storage asset.
 
